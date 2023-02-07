@@ -12,8 +12,13 @@ until counter == 10
     counter += 1
 end
 
-# For Loop
+# Looing with times
 10.times do |i|
     puts "Looping"
     puts "i is: #{i}"
+end
+
+#Looping with each
+(1..20).each do |num|
+    puts num
 end
